@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { createGreeting } from "../src/index";
+import { createGreeting } from "../src/index.ts";
 
 describe("createGreeting", () => {
   it("uses the default punctuation", () => {
